@@ -1,0 +1,168 @@
+.top {
+    top: 0;
+    width: 98.5%;
+    height: 7.35vh;
+    box-shadow: 0 10px 20px 0 #00000029;
+    background-color: #ffffff;
+    border-radius: 0px 0px 20px 20px;
+    text-align: center;
+    position: fixed;
+
+}
+
+.top img {
+    margin-top: 0.85vh;
+    height: 5vh;
+}
+
+.slider {
+    height: 28.125vh;
+    width: 98vw;
+    margin-top: 9vh;
+    margin-left: 1.5vw;
+    margin-right: 2vw;
+    text-align: center;
+    position: fixed;
+}
+
+.slide1,
+.slide2,
+.slide3 {
+    position: absolute;
+    width: 98%;
+    height: 100%;
+
+}
+
+.slide1 {
+    background: url(Assets/poster1.png)no-repeat center;
+    background-size: contain;
+    animation: fade 10s infinite;
+    -webkit-animation: fade 10s infinite;
+
+}
+
+.slide2 {
+    background: url(Assets/poster2.png)no-repeat center;
+    background-size: contain;
+    animation: fade2 10s infinite;
+    -webkit-animation: fade2 10s infinite;
+}
+
+.slide3 {
+    background: url(Assets/poster3.png)no-repeat center;
+    background-size: contain;
+    animation: fade3 10s infinite;
+    -webkit-animation: fade3 10s infinite;
+}
+
+@keyframes fade {
+    0% {
+        opacity: 1
+    }
+
+    33.333% {
+        opacity: 0
+    }
+
+    66.666% {
+        opacity: 0
+    }
+
+    100% {
+        opacity: 1
+    }
+}
+
+@keyframes fade2 {
+    0% {
+        opacity: 0
+    }
+
+    33.333% {
+        opacity: 1
+    }
+
+    66.666% {
+        opacity: 0
+    }
+
+    100% {
+        opacity: 0
+    }
+}
+
+@keyframes fade3 {
+    0% {
+        opacity: 0
+    }
+
+    33.333% {
+        opacity: 0
+    }
+
+    66.666% {
+        opacity: 1
+    }
+
+    100% {
+        opacity: 0
+    }
+}
+
+.headtext {
+    position: fixed;
+    margin-top: 40vh;
+    margin-left: 5vw;
+    width: 345px;
+    height: 43px;
+    font-family: Montserrat;
+    font-size: 35px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #727272;
+    padding-bottom: 2vh;
+}
+
+.menu {
+    position: fixed;
+    bottom: 0;
+    width: 98.5%;
+    height: 7.35vh;
+    box-shadow: 0 -10px 20px 0 #00000029;
+    background-color: #ffffff;
+    border-radius: 20px 20px 0px 0px;
+    text-align: center;
+    z-index: 2;
+}
+
+.menu img {
+    margin-top: 1.5vh;
+    height: 4.4vh;
+}
+
+.game {
+    margin-left: 26vw;
+    margin-right: 26vw;
+}
+
+.no-scroll {
+    position: fixed;
+    z-index: 2;
+    background: #fff;
+    height: 43.5vh;
+    width: 100%;
+}
+
+table {
+    width: 100%;
+    position: absolute;
+    column-gap: 4vw;
+    z-index: 0;
+    margin-top: 43vh;
+    padding-bottom: 8vh;
+    border-spacing: 3vw;
+}
