@@ -35,7 +35,7 @@
 }
 
 .slide1 {
-    background: url(Assets/poster1.png)no-repeat center;
+    background: url(Game%20Page%20Assets/poster1.png)no-repeat center;
     background-size: contain;
     animation: fade 10s infinite;
     -webkit-animation: fade 10s infinite;
@@ -43,14 +43,14 @@
 }
 
 .slide2 {
-    background: url(Assets/poster2.png)no-repeat center;
+    background: url(Game%20Page%20Assets/poster2.png)no-repeat center;
     background-size: contain;
     animation: fade2 10s infinite;
     -webkit-animation: fade2 10s infinite;
 }
 
 .slide3 {
-    background: url(Assets/poster3.png)no-repeat center;
+    background: url(Game%20Page%20Assets/poster3.png)no-repeat center;
     background-size: contain;
     animation: fade3 10s infinite;
     -webkit-animation: fade3 10s infinite;
