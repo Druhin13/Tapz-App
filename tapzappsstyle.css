@@ -35,7 +35,7 @@
 }
 
 .slide1 {
-    background: url(Assets/fbposter.png)no-repeat center;
+    background: url(App%20Page%20Assets/fbposter.png)no-repeat center;
     background-size: contain;
     animation: fade 10s infinite;
     -webkit-animation: fade 10s infinite;
@@ -43,14 +43,14 @@
 }
 
 .slide2 {
-    background: url(Assets/ytposter.png)no-repeat center;
+    background: url(App%20Page%20Assets/ytposter.png)no-repeat center;
     background-size: contain;
     animation: fade2 10s infinite;
     -webkit-animation: fade2 10s infinite;
 }
 
 .slide3 {
-    background: url(Assets/azposter.png)no-repeat center;
+    background: url(App%20Page%20Assets/azposter.png)no-repeat center;
     background-size: contain;
     animation: fade3 10s infinite;
     -webkit-animation: fade3 10s infinite;
