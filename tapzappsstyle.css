@@ -157,12 +157,22 @@
     width: 100%;
 }
 
-table {
+.table1 {
     width: 100%;
     position: absolute;
     column-gap: 4vw;
     z-index: 0;
     margin-top: 43vh;
+    padding-bottom: 8vh;
+    border-spacing: 3vw;
+}
+
+.table2 {
+    width: 100%;
+    position: absolute;
+    column-gap: 4vw;
+    z-index: 0;
+    margin-top: 105vh;
     padding-bottom: 8vh;
     border-spacing: 3vw;
 }
